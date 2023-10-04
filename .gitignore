@@ -1,0 +1,10 @@
+# IDE folders
+/.idea
+/.vscode
+/.fleet
+
+# Rust build artifacts
+/target
+/cherrybomb-repo/target
+/cherrybomb-repo/cherrybomb-engine/target/
+/cherrybomb-repo/cherrybomb-oas/target/
