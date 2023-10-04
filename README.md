@@ -10,7 +10,7 @@ Since the development team don't tag or release, we're cloning the repo at a cer
 docker run \
   --rm \
   -v FOLDER_PATH_WITH_OAS_AND_CONFIG:/app \
-  cherrybomb \
+  ghcr.io/guidionops/cherrybomb:[TAG] \
     -f NAME_OF_OAS_FILE \
     [-c NAME_OF_CONFIG_FILE]
 ```
